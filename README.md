@@ -116,8 +116,12 @@ Create a `.env` file and add the following:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/taskdb
-JWT_SECRET=your_secret_key
+MONGO_URI=your_mongodb_connection_string_here
+JWT_SECRET=your_jwt_secret_here
+ADMIN_NAME=Admin_Name_Here
+ADMIN_EMAIL=admin_mail_id_here
+ADMIN_PASSWORD=admin_password_here
+
 ```
 
 Run the backend server:
@@ -270,4 +274,4 @@ http://localhost:5000/api-docs
 
 Ayush Rawat
 
-Backend Developer Internship Assignment
+Backend Developer Internship Assignment, PrimeTrade AI
